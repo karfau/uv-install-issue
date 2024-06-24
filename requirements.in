@@ -1,0 +1,16 @@
+aiohttp==3.9.4
+alembic==1.13.1
+asgi-correlation-id==4.3.1
+asyncpg==0.29.0
+click==8.1.7
+elastic-apm==6.21.4.post8347027212
+fastapi==0.110.0
+jsonschema==4.21.1
+pydantic==2.7.0
+# XXX interim solution as long as release is <= 2.2.1
+pydantic-settings @ git+https://github.com/pydantic/pydantic-settings@1ffbd95579ce4926af095793d4a03c7baf6680a7
+python-decouple==3.8
+requests==2.31.0
+SQLAlchemy[asyncio]==2.0.28
+structlog==24.1.0
+uvicorn[standard]==0.29.0
